@@ -51,4 +51,9 @@ public class ContaCorrente {
         this.Saldo = this.Saldo - valorSacar;
         return this.Saldo;
     }
+
+    public float depositar(float valorDepositar){
+        this.Saldo = this.Saldo + valorDepositar;
+        return this.Saldo;
+    }
 }
